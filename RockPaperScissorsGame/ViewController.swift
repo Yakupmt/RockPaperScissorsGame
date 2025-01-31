@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import CoreData
 
 class ViewController: UIViewController {
     
@@ -29,11 +28,8 @@ class ViewController: UIViewController {
     var botChoice: Choice = .rock
     var score = 0
     
-    let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
-
     override func viewDidLoad() {
         super.viewDidLoad()
-        loadScore()
         ResultLabel.text = "..."
         YourChoice.text = "Make your choice..."
         BotChoiceLabel.text = "Waiting for your choice..."
@@ -83,45 +79,6 @@ class ViewController: UIViewController {
         }
         
         PointLabel.text = "Puan: \(score)"
-        saveScore()
-    }
-    
-    // Puanı Core Data'ya kaydetme
-    func saveScore() {
-        let fetchRequest: NSFetchRequest<Score> = Score.fetchRequest()
-        
-        do {
-            let results = try context.fetch(fetchRequest)
-            
-            // Eğer veritabanında bir puan varsa, onu güncelle
-            if let existingScore = results.first {
-                existingScore.value = Int16(score)
-            } else {
-                // Eğer puan yoksa, yeni bir puan oluştur
-                let newScore = Score(context: context)
-                newScore.value = Int16(score)
-            }
-            
-            // Değişiklikleri kaydet
-            try context.save()
-        } catch {
-            print("Point unsaved: \(error)")
-        }
-    }
-    
-    // Core Data'dan puanı okuma
-    func loadScore() {
-        let fetchRequest: NSFetchRequest<Score> = Score.fetchRequest()
-        
-        do {
-            let results = try context.fetch(fetchRequest)
-            if let existingScore = results.first {
-                score = Int(existingScore.value)
-                PointLabel.text = "Point: \(score)"
-            }
-        } catch {
-            print("Point unloading: \(error)")
-        }
     }
 }
 
