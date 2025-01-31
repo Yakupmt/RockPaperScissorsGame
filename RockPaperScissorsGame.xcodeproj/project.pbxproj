@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		E2CC1FE12D4CF4F50019D0BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2CC1FC22D4CF4F40019D0BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2CC1FC92D4CF4F40019D0BD;
+			remoteInfo = RockPaperScissorsGame;
+		};
+		E2CC1FEB2D4CF4F60019D0BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2CC1FC22D4CF4F40019D0BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2CC1FC92D4CF4F40019D0BD;
+			remoteInfo = RockPaperScissorsGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E2CC1FCA2D4CF4F40019D0BD /* RockPaperScissorsGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockPaperScissorsGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2CC1FE02D4CF4F50019D0BD /* RockPaperScissorsGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockPaperScissorsGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2CC1FEA2D4CF4F60019D0BD /* RockPaperScissorsGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockPaperScissorsGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E2CC1FF22D4CF4F60019D0BD /* Exceptions for "RockPaperScissorsGame" folder in "RockPaperScissorsGame" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E2CC1FC92D4CF4F40019D0BD /* RockPaperScissorsGame */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E2CC1FCC2D4CF4F40019D0BD /* RockPaperScissorsGame */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E2CC1FF22D4CF4F60019D0BD /* Exceptions for "RockPaperScissorsGame" folder in "RockPaperScissorsGame" target */,
+			);
+			path = RockPaperScissorsGame;
+			sourceTree = "<group>";
+		};
+		E2CC1FE32D4CF4F50019D0BD /* RockPaperScissorsGameTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RockPaperScissorsGameTests;
+			sourceTree = "<group>";
+		};
+		E2CC1FED2D4CF4F60019D0BD /* RockPaperScissorsGameUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RockPaperScissorsGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2CC1FC72D4CF4F40019D0BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2CC1FDD2D4CF4F50019D0BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2CC1FE72D4CF4F60019D0BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2CC1FC12D4CF4F40019D0BD = {
+			isa = PBXGroup;
+			children = (
+				E2CC1FCC2D4CF4F40019D0BD /* RockPaperScissorsGame */,
+				E2CC1FE32D4CF4F50019D0BD /* RockPaperScissorsGameTests */,
+				E2CC1FED2D4CF4F60019D0BD /* RockPaperScissorsGameUITests */,
+				E2CC1FCB2D4CF4F40019D0BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2CC1FCB2D4CF4F40019D0BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2CC1FCA2D4CF4F40019D0BD /* RockPaperScissorsGame.app */,
+				E2CC1FE02D4CF4F50019D0BD /* RockPaperScissorsGameTests.xctest */,
+				E2CC1FEA2D4CF4F60019D0BD /* RockPaperScissorsGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2CC1FC92D4CF4F40019D0BD /* RockPaperScissorsGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2CC1FF32D4CF4F60019D0BD /* Build configuration list for PBXNativeTarget "RockPaperScissorsGame" */;
+			buildPhases = (
+				E2CC1FC62D4CF4F40019D0BD /* Sources */,
+				E2CC1FC72D4CF4F40019D0BD /* Frameworks */,
+				E2CC1FC82D4CF4F40019D0BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E2CC1FCC2D4CF4F40019D0BD /* RockPaperScissorsGame */,
+			);
+			name = RockPaperScissorsGame;
+			packageProductDependencies = (
+			);
+			productName = RockPaperScissorsGame;
+			productReference = E2CC1FCA2D4CF4F40019D0BD /* RockPaperScissorsGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2CC1FDF2D4CF4F50019D0BD /* RockPaperScissorsGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2CC1FF82D4CF4F60019D0BD /* Build configuration list for PBXNativeTarget "RockPaperScissorsGameTests" */;
+			buildPhases = (
+				E2CC1FDC2D4CF4F50019D0BD /* Sources */,
+				E2CC1FDD2D4CF4F50019D0BD /* Frameworks */,
+				E2CC1FDE2D4CF4F50019D0BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2CC1FE22D4CF4F50019D0BD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E2CC1FE32D4CF4F50019D0BD /* RockPaperScissorsGameTests */,
+			);
+			name = RockPaperScissorsGameTests;
+			packageProductDependencies = (
+			);
+			productName = RockPaperScissorsGameTests;
+			productReference = E2CC1FE02D4CF4F50019D0BD /* RockPaperScissorsGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E2CC1FE92D4CF4F60019D0BD /* RockPaperScissorsGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2CC1FFB2D4CF4F60019D0BD /* Build configuration list for PBXNativeTarget "RockPaperScissorsGameUITests" */;
+			buildPhases = (
+				E2CC1FE62D4CF4F60019D0BD /* Sources */,
+				E2CC1FE72D4CF4F60019D0BD /* Frameworks */,
+				E2CC1FE82D4CF4F60019D0BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2CC1FEC2D4CF4F60019D0BD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E2CC1FED2D4CF4F60019D0BD /* RockPaperScissorsGameUITests */,
+			);
+			name = RockPaperScissorsGameUITests;
+			packageProductDependencies = (
+			);
+			productName = RockPaperScissorsGameUITests;
+			productReference = E2CC1FEA2D4CF4F60019D0BD /* RockPaperScissorsGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2CC1FC22D4CF4F40019D0BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					E2CC1FC92D4CF4F40019D0BD = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					E2CC1FDF2D4CF4F50019D0BD = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = E2CC1FC92D4CF4F40019D0BD;
+					};
+					E2CC1FE92D4CF4F60019D0BD = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = E2CC1FC92D4CF4F40019D0BD;
+					};
+				};
+			};
+			buildConfigurationList = E2CC1FC52D4CF4F40019D0BD /* Build configuration list for PBXProject "RockPaperScissorsGame" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2CC1FC12D4CF4F40019D0BD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E2CC1FCB2D4CF4F40019D0BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2CC1FC92D4CF4F40019D0BD /* RockPaperScissorsGame */,
+				E2CC1FDF2D4CF4F50019D0BD /* RockPaperScissorsGameTests */,
+				E2CC1FE92D4CF4F60019D0BD /* RockPaperScissorsGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2CC1FC82D4CF4F40019D0BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2CC1FDE2D4CF4F50019D0BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2CC1FE82D4CF4F60019D0BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2CC1FC62D4CF4F40019D0BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2CC1FDC2D4CF4F50019D0BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2CC1FE62D4CF4F60019D0BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2CC1FE22D4CF4F50019D0BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2CC1FC92D4CF4F40019D0BD /* RockPaperScissorsGame */;
+			targetProxy = E2CC1FE12D4CF4F50019D0BD /* PBXContainerItemProxy */;
+		};
+		E2CC1FEC2D4CF4F60019D0BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2CC1FC92D4CF4F40019D0BD /* RockPaperScissorsGame */;
+			targetProxy = E2CC1FEB2D4CF4F60019D0BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E2CC1FF42D4CF4F60019D0BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GA53827BJ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RockPaperScissorsGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yakup.RockPaperScissorsGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2CC1FF52D4CF4F60019D0BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GA53827BJ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RockPaperScissorsGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yakup.RockPaperScissorsGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E2CC1FF62D4CF4F60019D0BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2CC1FF72D4CF4F60019D0BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2CC1FF92D4CF4F60019D0BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GA53827BJ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yakup.RockPaperScissorsGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RockPaperScissorsGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RockPaperScissorsGame";
+			};
+			name = Debug;
+		};
+		E2CC1FFA2D4CF4F60019D0BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GA53827BJ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yakup.RockPaperScissorsGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RockPaperScissorsGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RockPaperScissorsGame";
+			};
+			name = Release;
+		};
+		E2CC1FFC2D4CF4F60019D0BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GA53827BJ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yakup.RockPaperScissorsGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RockPaperScissorsGame;
+			};
+			name = Debug;
+		};
+		E2CC1FFD2D4CF4F60019D0BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GA53827BJ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yakup.RockPaperScissorsGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RockPaperScissorsGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2CC1FC52D4CF4F40019D0BD /* Build configuration list for PBXProject "RockPaperScissorsGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2CC1FF62D4CF4F60019D0BD /* Debug */,
+				E2CC1FF72D4CF4F60019D0BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2CC1FF32D4CF4F60019D0BD /* Build configuration list for PBXNativeTarget "RockPaperScissorsGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2CC1FF42D4CF4F60019D0BD /* Debug */,
+				E2CC1FF52D4CF4F60019D0BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2CC1FF82D4CF4F60019D0BD /* Build configuration list for PBXNativeTarget "RockPaperScissorsGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2CC1FF92D4CF4F60019D0BD /* Debug */,
+				E2CC1FFA2D4CF4F60019D0BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2CC1FFB2D4CF4F60019D0BD /* Build configuration list for PBXNativeTarget "RockPaperScissorsGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2CC1FFC2D4CF4F60019D0BD /* Debug */,
+				E2CC1FFD2D4CF4F60019D0BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2CC1FC22D4CF4F40019D0BD /* Project object */;
+}
